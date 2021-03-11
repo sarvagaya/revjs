@@ -1,0 +1,82 @@
+.container {
+    border: 1px solid black;
+    height: 90vh;
+    width: 50vw;
+    margin-top: 3vh;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-min {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.min {
+    height: 10vh;
+    width: 10vw;
+    background-color: red;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+.max {
+    height: 10vh;
+    width: 10vw;
+    background-color: green;
+    margin-top: 2vh;
+    margin-right: 3vw;
+}
+
+p {
+    text-align: center;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.keypad > p {
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keypad > p:nth-child(1n) {
+    background-color: chocolate;
+}
+
+.keypad > p:nth-of-type(2n+1) {
+    background-color: brown;
+}
+
+.keypad > p:nth-of-type(3n) {
+    background-color: crimson;
+}
+
+#scoreMonitor {
+    height: 10vh;
+    width: 20vw;
+    background-color: lightblue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid lightsalmon;
+    cursor: text;
+}
+
+#enter {
+    background-color: tomato;
+    padding: 2vh 3vw;
+    width: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
