@@ -1,0 +1,61 @@
+body {
+    background-color: whitesmoke;
+}
+#inputMonitor {
+    height: 8vh;
+    width: 75vw;
+    border: 5px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: text;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+
+.keypad > div {
+    padding: 1vh 2vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 1vh 1vw 0vh 1vw;
+    border: 0;
+    cursor: pointer;
+}
+
+#delete {
+    padding-top: 2.5vh;
+}
+
+.keypad:nth-of-type(2) > div {
+    padding: 0vh 2vw;
+}
+
+#spaceBar {
+    width: 30vw;
+    height: 5vh;
+    margin-left: 20vw;
+}
+
+#q {
+    margin-left: 5vw;
+}
+
+#a {
+    margin-left: 8vw;
+}
+
+#z {
+    margin-left: 10vw;
+}
+
+#caps {
+    margin-left: 17.5vw;
+}
