@@ -1,0 +1,43 @@
+.head {
+    width: 90vw;
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head > h2 {
+    text-align: center;
+}
+
+#displayWeather {
+    height: 50vh;
+    width: 45vw;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.userinput {
+    height: 10vh;
+    width: 30vw;
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.userinput > button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 1.5vh 3vw;
+    border-radius: 10px;
+    font-size: 1.15em;
+    letter-spacing: 2px;
+}
