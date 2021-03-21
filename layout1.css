@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.shape {
+    height: 80vh;
+    width: 10vw;
+    background-color: teal;
+    border-radius: 10px;
+}
