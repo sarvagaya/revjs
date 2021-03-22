@@ -1,0 +1,11 @@
+.shape {
+    height: 20vh;
+    width: 10vw;
+    background-color: teal;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+
+.container {
+    display: flex;
+}
