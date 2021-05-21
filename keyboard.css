@@ -1,0 +1,100 @@
+#numberRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#numberRow p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#numberRow p sup {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#firstAlphaRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#firstAlphaRow p {
+    background-color: black;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#firstAlphaRow p sup {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#secondAlphaRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#secondAlphaRow p {
+    background-color: black;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#secondAlphaRow p sup {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#thirdAlphaRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#thirdAlphaRow p {
+    background-color: black;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#thirdAlphaRow p:active {
+    /* padding: 19.5px 24.5px 19.5px 24.5px; */
+    /* color: yellow; */
+    font-weight: bold;
+}
+
+#thirdAlphaRow p sup {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#fourthAlphaRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fourthAlphaRow p {
+    background-color: black;
+    height: 8vh;
+    width: 50vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#fourthAlphaRow p:active {
+    height: 7.5vh;
+    width: 49.5vw;
+}
